@@ -295,6 +295,42 @@ body {
   }
 }
 
+/* Footer content grid */
+.footer-content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .footer-content-grid {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+  }
+}
+
+/* Footer links - 2 columns on mobile, single column on desktop */
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+@media (min-width: 768px) {
+  .footer-links-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+/* Footer wrapper - extra padding on mobile for bottom bar */
+.footer-wrapper {
+  padding-bottom: 80px !important;
+}
+@media (min-width: 768px) {
+  .footer-wrapper {
+    padding-bottom: 24px !important;
+  }
+}
+
 /* Navbar responsive */
 .nav-desktop {
   display: none !important;
@@ -425,5 +461,19 @@ body {
 @media (min-width: 768px) {
   .wa-float-btn {
     bottom: 24px !important;
+  }
+}
+
+/* Mobile bottom bar */
+.mobile-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+}
+@media (min-width: 768px) {
+  .mobile-bottom-bar {
+    display: none;
   }
 }
