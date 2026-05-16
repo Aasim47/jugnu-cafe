@@ -1,6 +1,6 @@
 # ☕ Jugnu Cafe — Official Website
 
-> A cinematic, full-featured restaurant website for **Jugnu Cafe** — a cozy cafe in Muzaffarnagar, UP, India. Built with Next.js 15 (App Router), TailwindCSS v4, Framer Motion, and TypeScript.
+> A cinematic, full-featured restaurant website for **Jugnu Cafe** — a cozy cafe in Sambalpur, Odisha, India. Built with Next.js 15 (App Router), TailwindCSS v4, Framer Motion, and TypeScript.
 
 ![Jugnu Cafe](./public/assets/gallery/ambience.jpeg)
 
@@ -127,7 +127,7 @@ Typography uses **Playfair Display** (display headings) and **Inter** (body) fro
 
 ## 📬 Contact & Social
 
-- 📍 **Location:** Muzaffarnagar, Uttar Pradesh, India
+- 📍 **Location:** Sambalpur, Odisha, India
 - 📸 **Instagram:** [@jugnu_cafe_](https://www.instagram.com/jugnu_cafe_/)
 - 💬 **WhatsApp:** Available via the floating button on the site
 
